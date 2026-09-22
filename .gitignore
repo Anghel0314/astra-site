@@ -1,0 +1,5 @@
+.DS_Store
+
+# Local source documents are retained next to the site, but the deployed
+# repository contains only the public static site and its documentation.
+*.rtf
