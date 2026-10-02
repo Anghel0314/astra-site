@@ -35,3 +35,7 @@ Before App Store submission, use the resulting public `/privacy/` and `/terms/` 
 The landing page now leads with the eight Development Paths and the practice/reflection/outcome/history loop. Approved iPhone and iPad marketing screenshots are optimized as WebP assets. The direction selector is a website preview, not a personalized calculation. Free local Paths/history and Premium Daily Brief/Forecast/Advisor are described separately. Support includes path navigation and local history persistence. Privacy and Terms text remains unchanged.
 
 `Astra-website.zip` contains the complete deployable site with `index.html` at its root for a Cloudflare Pages upload. Preview and package preparation do not publish the website. No App Store release URL has been supplied, so the release CTA remains Coming soon.
+
+## Deployment troubleshooting
+
+If a push does not create a Pages deployment, check the project’s Deployments page for a disconnected Git account warning. Reauthenticate the existing GitHub integration and confirm it still has access to `Anghel0314/astra-site`. Production uses `main`, an empty build command, and `dist` as the output directory. A new push after reconnecting triggers a fresh deployment; verify its success and the public page before treating publication as complete.
