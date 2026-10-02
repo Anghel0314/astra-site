@@ -3,62 +3,87 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Astra — Personal Intelligence for Your Next Move</title>
-  <meta name="description" content="Astra turns your personal astrology profile into focused daily guidance for business, career, money, and important decisions.">
-  <meta property="og:type" content="website"><meta property="og:site_name" content="Astra"><meta property="og:title" content="Astra — Personal Intelligence for Your Next Move"><meta property="og:description" content="Understand your pattern. Choose your timing. Make better moves.">
+  <title>Astra — Your Pattern. Your Path. Your Next Move.</title>
+  <meta name="description" content="Turn personal astrology insights into action with Astra. Explore eight Development Paths, practice, reflect, and build your personal history. For iPhone and iPad.">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="Astra"><meta property="og:title" content="Astra — Your Pattern. Your Path. Your Next Move."><meta property="og:description" content="Choose a direction. Try a practice. Reflect on what worked.">
   <meta name="theme-color" content="#06070a"><link rel="icon" href="/assets/app-icon.png"><link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body data-page="home">
   <site-header></site-header>
   <main>
-    <section class="hero">
-      <div class="hero-copy shell">
-        <p class="eyebrow">Astra / Personal intelligence</p>
-        <h1>Know your strengths.<br><em>Choose your timing.</em><br>Make better moves.</h1>
-        <p class="lede">Astra turns your personal astrology profile into a clear daily signal for business, career, money, and the decisions that shape your life.</p>
-        <div class="actions"><a class="button" href="#download">Discover your founder archetype</a><a class="button button-secondary" href="#experience">Explore the experience</a></div>
+    <section class="hero paths-hero">
+      <div class="shell hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Astra / Personal development through astrology</p>
+          <h1>Your pattern.<br><em>Your path.</em><br>Your next move.</h1>
+          <p class="lede">Understand your patterns. Choose a direction. Turn personal insight into a practice you can try, reflect on, and return to.</p>
+          <div class="actions"><a class="button" href="#paths">Explore Development Paths</a><a class="button button-secondary" href="#experience">See how it works</a></div>
+          <p class="hero-note">For iPhone and iPad · Eight development directions</p>
+        </div>
+        <div class="hero-device"><img class="store-shot hero-store-shot" src="/assets/01-direction.webp" alt="Astra Development Map with Strategy selected and a separate Open Path button" width="900" height="1951" fetchpriority="high"></div>
       </div>
-      <div class="hero-device"><div class="hero-orbit"></div><img class="store-shot hero-store-shot" src="/assets/archetype.jpg" alt="Astra Founder Archetype screen"></div>
     </section>
 
-    <section class="section shell center" id="experience" data-reveal>
-      <p class="eyebrow">A personal system</p>
-      <h2>From your pattern<br>to your next move.</h2>
-      <p class="lede">Astra gives you a personal foundation first, then turns it into concise, useful reflection you can return to every day.</p>
+    <section class="section shell center" id="experience">
+      <p class="eyebrow">From insight to action</p>
+      <h2>A practice you try.<br>A history you build.</h2>
+      <p class="lede">Your astrology profile is a starting point for reflection. What happens next comes from the practices you try and the results you record.</p>
       <div class="flow">
-        <article class="flow-step"><span class="step-number">1</span><h3>Discover your profile</h3><p>Birth data, numerology, and your goals form the foundation.</p></article>
-        <article class="flow-step"><span class="step-number">2</span><h3>Find your archetype</h3><p>See the leadership pattern behind how you work and decide.</p></article>
-        <article class="flow-step"><span class="step-number">3</span><h3>Read the signal</h3><p>Use daily and weekly themes to direct your attention.</p></article>
-        <article class="flow-step"><span class="step-number">4</span><h3>Make the move</h3><p>Turn reflection into a clearer next action.</p></article>
+        <article class="flow-step"><span class="step-number">1</span><h3>Understand the pattern</h3><p>Explore the profile signals behind your chosen direction.</p></article>
+        <article class="flow-step"><span class="step-number">2</span><h3>Try a practice</h3><p>Work with a concrete exercise for a real situation.</p></article>
+        <article class="flow-step"><span class="step-number">3</span><h3>Reflect &amp; record</h3><p>Save your reflection, outcome, and personal takeaway.</p></article>
+        <article class="flow-step"><span class="step-number">4</span><h3>Choose your next move</h3><p>Revisit your history and decide what to try next.</p></article>
       </div>
+      <p class="loop-label">Pattern → Practice → Reflection → Outcome → History → Next Move</p>
     </section>
 
-    <section class="section section-soft"><div class="shell split" data-reveal>
-      <div class="copy"><p class="eyebrow">Your personal blueprint</p><h2>Not a generic horoscope.</h2><p class="lede">Your Founder Archetype brings together your personal signals, selected priorities, and current situation into a clear starting point.</p><div class="feature-list"><span class="feature-pill">Founder Archetype</span><span class="feature-pill">Your Edge</span><span class="feature-pill">Blind Spot</span><span class="feature-pill">Work &amp; Money Style</span></div></div>
-      <div class="visual-card"><div class="archetype-panel"><div class="ring">⌁</div><p class="eyebrow" style="text-align:center">Founder archetype</p><h3>The Architect</h3><p class="subline">System builder · Long-range thinker</p><div class="archetype-tags"><span>Strategic</span><span>Independent</span><span>Calculated</span></div><p class="insight">You turn ambiguity into structure. Your work is strongest when you can name the system before chasing the outcome.</p></div></div>
+    <section class="section section-soft" id="paths"><div class="shell split">
+      <div class="copy"><p class="eyebrow">Development Paths</p><h2>Eight directions.<br>Your choice.</h2><p class="lede">Choose a path on your Development Map. Read what you selected, then open it when you’re ready to explore the pattern and try a practice.</p>
+        <div class="path-picker" role="group" aria-label="Explore development directions">
+          <button type="button" data-path="Strategy" aria-pressed="true">Strategy</button><button type="button" data-path="Execution" aria-pressed="false">Execution</button><button type="button" data-path="Creativity" aria-pressed="false">Creativity</button><button type="button" data-path="Leadership" aria-pressed="false">Leadership</button><button type="button" data-path="Independence" aria-pressed="false">Independence</button><button type="button" data-path="Communication" aria-pressed="false">Communication</button><button type="button" data-path="Adaptability" aria-pressed="false">Adaptability</button><button type="button" data-path="Risk Orientation" aria-pressed="false">Risk Orientation</button>
+        </div>
+        <div class="path-description" aria-live="polite" aria-atomic="true"><h3 id="path-name">Strategy</h3><p id="path-copy">Reflect on priorities, constraints, and the decision behind your next plan.</p></div>
+        <p class="small-note">Explore the directions here. Your personal map and practices are in the app.</p>
+      </div>
+      <div class="visual-card"><img class="store-shot" src="/assets/02-action.webp" alt="Astra practice screen with a concrete exercise and Write your reflection button" width="900" height="1951" loading="lazy"></div>
     </div></section>
 
-    <section class="section"><div class="shell split reverse" data-reveal>
-      <div class="copy"><p class="eyebrow">Today</p><h2>A daily brief<br>with direction.</h2><p class="lede">Open Astra to find a focused signal, practical career and money reflections, and one clear move worth making today.</p><div class="feature-list"><span class="feature-pill">Today’s Signal</span><span class="feature-pill">Career</span><span class="feature-pill">Money</span><span class="feature-pill">Decisions</span></div></div>
-      <div class="visual-card"><img class="store-shot tilt-left" src="/assets/daily.jpg" alt="Astra daily brief screen"></div>
+    <section class="section"><div class="shell split reverse">
+      <div class="copy"><p class="eyebrow">Your personal history</p><h2>Remember<br>what worked.</h2><p class="lede">Save a reflection, record whether the practice helped, and keep the takeaway. Return to past entries as your next decision takes shape.</p><p class="small-note">Paths, practices, and your saved history are available without a Premium subscription. Practice records are stored locally and do not sync between devices.</p></div>
+      <div class="visual-card"><img class="store-shot" src="/assets/03-history.webp" alt="Saved Astra history entries with reflections, takeaways, and recorded outcomes" width="900" height="1951" loading="lazy"></div>
     </div></section>
 
-    <section class="section section-soft"><div class="shell split" data-reveal>
-      <div class="copy"><p class="eyebrow">Forecast</p><h2>See the week<br>with more context.</h2><p class="lede">Weekly and monthly strategy surfaces the patterns worth tracking—so you can spend less energy reacting and more energy choosing deliberately.</p><div class="feature-list"><span class="feature-pill">Weekly Strategy</span><span class="feature-pill">Monthly Focus</span><span class="feature-pill">Career &amp; Money</span><span class="feature-pill">Your Move</span></div></div>
-      <div class="visual-card"><img class="store-shot tilt-right" src="/assets/forecast.jpg" alt="Astra weekly strategy screen"></div>
+    <section class="section section-soft"><div class="shell split">
+      <div class="copy"><p class="eyebrow">Today</p><h2>Your daily signal.<br>A practical move.</h2><p class="lede">Start with Today’s Signal, explore your focus, and follow it into the relevant Development Path. One concrete move helps connect reflection with your day.</p><p class="small-note">Premium adds the full personalized Daily Brief.</p></div>
+      <div class="visual-card"><img class="store-shot" src="/assets/04-daily-signal.webp" alt="Astra Today with a daily signal, Strategy focus, and a practical next move" width="900" height="1951" loading="lazy"></div>
     </div></section>
 
-    <section class="section section-dark" id="advisor"><div class="shell split reverse" data-reveal>
-      <div class="copy"><p class="eyebrow">Astra Advisor</p><h2>Bring a decision<br>into focus.</h2><p class="lede">Use Advisor to examine assumptions, tradeoffs, and your next practical step—with your own profile as reflective context.</p><div class="feature-list"><span class="feature-pill">Career decisions</span><span class="feature-pill">Business direction</span><span class="feature-pill">Negotiations</span><span class="feature-pill">Personal context</span></div></div>
-      <div class="visual-card"><div class="advisor-visual"><p class="advisor-question">What should I focus on this week?</p><article class="advisor-answer"><h3>Astra Advisor</h3><p>Make the priority visible. Choose the one result that changes the week, then create enough space to move it forward before lower-leverage work fills the day.</p><div class="advisor-next"><strong>Next step</strong><p>Write the outcome in one sentence and block the first uninterrupted hour for it.</p></div></article></div></div>
+    <section class="section"><div class="shell split reverse">
+      <div class="copy"><p class="eyebrow">Weekly &amp; monthly forecasts · Premium</p><h2>See the<br>bigger picture.</h2><p class="lede">Explore personalized themes around career, money, communication, and growth. Use the wider context to reflect on your plans for the week and month.</p></div>
+      <div class="visual-card"><img class="store-shot" src="/assets/05-bigger-picture.webp" alt="Astra Weekly Strategy with a main theme and career reflections" width="900" height="1951" loading="lazy"></div>
     </div></section>
 
-    <section class="section shell center" data-reveal>
-      <p class="eyebrow">Built with restraint</p><h2>A reflective framework,<br>not a promise.</h2><p class="lede">Astra helps you notice patterns and frame a better question. It does not guarantee outcomes or replace professional financial, medical, legal, or other advice.</p>
-      <div class="proof-grid"><article class="proof-card"><span class="proof-number">01</span><h3>Your data is personal</h3><p>Birth details are used to create your profile. Raw birth data is not sent to Astra’s AI provider.</p></article><article class="proof-card"><span class="proof-number">02</span><h3>Facts before interpretation</h3><p>Astra keeps deterministic profile calculations separate from generated interpretation.</p></article><article class="proof-card"><span class="proof-number">03</span><h3>Designed for real life</h3><p>Career, money, timing, and decisions are approached as reflection—not certainty.</p></article></div>
+    <section class="section section-soft" id="advisor"><div class="shell split">
+      <div class="copy"><p class="eyebrow">AI Advisor · Premium</p><h2>Bring a decision<br>into focus.</h2><p class="lede">Ask about your career, business direction, or a situation you’re working through. Advisor uses your personal profile and the context you provide to help you explore considerations and a practical next step.</p></div>
+      <div class="visual-card"><img class="store-shot" src="/assets/06-ask-astra.webp" alt="Astra Advisor showing a user question, considerations, and a next step" width="900" height="1951" loading="lazy"></div>
+    </div></section>
+
+    <section class="section"><div class="shell split reverse">
+      <div class="copy"><p class="eyebrow">Your personal profile</p><h2>Know the patterns<br>behind your path.</h2><p class="lede">Explore your natal chart and Astra Archetype alongside numerology and Chinese zodiac insights. Reflect on strengths, working style, communication, and potential blind spots.</p><p class="small-note">Some chart details depend on the availability and accuracy of your birth time and location.</p></div>
+      <div class="visual-card"><img class="store-shot" src="/assets/07-profile.webp" alt="Astra natal chart based on the user’s birth information" width="900" height="1951" loading="lazy"></div>
+    </div></section>
+
+    <section class="section section-soft"><div class="shell split tablet-split">
+      <div class="copy"><p class="eyebrow">Astra for iPad</p><h2>More room<br>for reflection.</h2><p class="lede">Explore your Development Map, work through practices, and revisit your history on iPad. The same personal development experience, with room to see the bigger picture.</p></div>
+      <div class="tablet-visual"><img src="/assets/ipad-direction.webp" alt="Astra Development Map on iPad" width="1100" height="1467" loading="lazy"></div>
+    </div></section>
+
+    <section class="section shell center">
+      <p class="eyebrow">A reflective framework</p><h2>Insight with perspective.<br>Action with intention.</h2><p class="lede">Astrology and AI-generated content support entertainment and self-reflection. They do not guarantee outcomes or replace financial, investment, medical, legal, psychological, or other professional advice.</p>
+      <div class="proof-grid"><article class="proof-card"><span class="proof-number">01</span><h3>Personal context</h3><p>Your profile and selected goals give your reflections a starting point.</p></article><article class="proof-card"><span class="proof-number">02</span><h3>Calculated, then interpreted</h3><p>Structured chart calculations are kept separate from AI-generated interpretation.</p></article><article class="proof-card"><span class="proof-number">03</span><h3>Progress you record</h3><p>Your history reflects actual saved practices and outcomes, without invented ability scores.</p></article></div>
     </section>
 
-    <section class="final-cta" id="download"><p class="eyebrow">Astra for iPhone</p><h2>Understand your pattern.<br>Move with intention.</h2><p class="lede" style="margin-inline:auto">Astra is preparing for the App Store. Your personal blueprint starts with one honest question: what are you building next?</p><div class="actions"><span class="button button-disabled" aria-disabled="true">Coming soon to the App Store</span></div><p class="disclaimer">Astra provides reflective, astrology-based guidance for adults.</p></section>
+    <section class="final-cta" id="download"><p class="eyebrow">Astra for iPhone &amp; iPad</p><h2>Choose your direction.<br>Make your next move.</h2><p class="lede" style="margin-inline:auto">A personal profile. Eight development paths. A practice you can start with.</p><div class="actions"><span class="button button-disabled" aria-disabled="true">Coming soon to the App Store</span></div><p class="disclaimer">Optional auto-renewable subscriptions unlock Premium content.<br>Manage or cancel subscriptions in your Apple Account settings.</p></section>
   </main>
   <site-footer></site-footer>
   <script src="/assets/site.js"></script>

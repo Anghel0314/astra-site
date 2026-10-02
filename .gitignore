@@ -3,3 +3,7 @@
 # Local source documents are retained next to the site, but the deployed
 # repository contains only the public static site and its documentation.
 *.rtf
+
+# Local delivery package and review capture
+/Astra-website.zip
+/preview-desktop.png
