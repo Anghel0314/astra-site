@@ -4,7 +4,7 @@ class SiteHeader extends HTMLElement {
     const active = (name) => page === name ? ' aria-current="page"' : "";
     this.innerHTML = `
       <header class="site-header">
-        <a class="brand" href="/" aria-label="Astra home"><span class="brand-mark" aria-hidden="true">A</span><span>Astra</span></a>
+        <a class="brand" href="/" aria-label="Astra home"><img class="brand-mark" src="/assets/favicon.svg" alt="" aria-hidden="true" width="32" height="32"><span>Astra</span></a>
         <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
         <nav class="site-nav" aria-label="Main navigation">
           <a href="/#paths">Paths</a><a href="/#experience">Experience</a>
@@ -32,7 +32,7 @@ class SiteFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <footer class="footer shell">
-        <div class="footer-brand"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">A</span><span>Astra</span></a><p>Your pattern. Your path. Your next move.</p></div>
+        <div class="footer-brand"><a class="brand" href="/"><img class="brand-mark" src="/assets/favicon.svg" alt="" aria-hidden="true" width="32" height="32"><span>Astra</span></a><p>Your pattern. Your path. Your next move.</p></div>
         <div class="footer-links">
           <div><h3>Product</h3><a href="/#paths">Paths</a><a href="/#experience">Experience</a><a href="/#advisor">Advisor</a><a href="/#download">Get Astra</a></div>
           <div><h3>Resources</h3><a href="/support/">Support</a></div>

@@ -39,3 +39,8 @@ The landing page now leads with the eight Development Paths and the practice/ref
 ## Deployment troubleshooting
 
 If a push does not create a Pages deployment, check the project’s Deployments page for a disconnected Git account warning. Reauthenticate the existing GitHub integration and confirm it still has access to `Anghel0314/astra-site`. Production uses `main`, an empty build command, and `dist` as the output directory. A new push after reconnecting triggers a fresh deployment; verify its success and the public page before treating publication as complete.
+
+## Header and footer brand correction — 2026-10-07
+
+Both shared components now render the SaaS compass SVG used by the favicon. Previous
+favicon-only update did not replace the visible letter A in the header/footer.
