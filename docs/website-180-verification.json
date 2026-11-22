@@ -1,6 +1,6 @@
 {
   "version": "1.8.0",
-  "build": "23",
+  "build": "mixed",
   "language": "en-US",
   "kind": "native simulator screenshot",
   "sampleDisclosure": "Example local profile and journal. Real feature UI and deterministic calculations. Guest state; no simulated AI output, paid access or production service response.",
@@ -20,7 +20,10 @@
       "sha256": "d701c8280fecabad3e169e2adc56466aaf42802ba8065f3f52af43ffc041d968",
       "bytes": 2259297,
       "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
-      "nativeFile": "iphone/01-paths.png"
+      "nativeFile": "iphone/01-paths.png",
+      "version": "1.8.0",
+      "build": "23",
+      "sourceBatch": "initial-build-23"
     },
     {
       "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
@@ -35,7 +38,10 @@
       "sha256": "0dcaf0c08b8cd8f45a47fcd3c46027c88e08e2985414efb5c2ed982d6c359d34",
       "bytes": 1751289,
       "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
-      "nativeFile": "iphone/02-practice.png"
+      "nativeFile": "iphone/02-practice.png",
+      "version": "1.8.0",
+      "build": "23",
+      "sourceBatch": "initial-build-23"
     },
     {
       "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
@@ -50,7 +56,10 @@
       "sha256": "0e75049f68b8f56e74cd7455d20c3e1d9eade0c3bbe80d7914d6c57ea73c2c8a",
       "bytes": 1472246,
       "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
-      "nativeFile": "iphone/03-decision.png"
+      "nativeFile": "iphone/03-decision.png",
+      "version": "1.8.0",
+      "build": "23",
+      "sourceBatch": "initial-build-23"
     },
     {
       "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
@@ -65,7 +74,10 @@
       "sha256": "2991f4ac7dab2c5be8aaa9c3e098ef318d95219e1618e8ec6ebdf58c3039de1f",
       "bytes": 2075266,
       "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
-      "nativeFile": "iphone/04-journal.png"
+      "nativeFile": "iphone/04-journal.png",
+      "version": "1.8.0",
+      "build": "23",
+      "sourceBatch": "initial-build-23"
     },
     {
       "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
@@ -77,10 +89,13 @@
       ],
       "pixelWidth": 1206,
       "pixelHeight": 2622,
-      "sha256": "544cf5703d197c8436cf448b5834d3e17d7c5946bb9aa57f6eb763cfe8a3ddd6",
-      "bytes": 1815098,
-      "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
-      "nativeFile": "iphone/05-today.png"
+      "sha256": "a386a40aad2d0663b7758257ba4f6eb0a05b90660044acef5de765e59f1b7eb3",
+      "bytes": 1904019,
+      "visualInspection": "passed: real guest UI; collapsed Today selector; no date description, permanent week row, loading indicator, QA banner or system overlay",
+      "nativeFile": "/private/tmp/astra180-fix24-visual/today-en.png",
+      "version": "1.8.0",
+      "build": "24",
+      "sourceBatch": "today-fix-build-24"
     },
     {
       "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
@@ -95,7 +110,10 @@
       "sha256": "41714c16618fd204e7a02debe744178111d6d548034e64563d133d2eaa3473ac",
       "bytes": 1073080,
       "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
-      "nativeFile": "iphone/06-natal.png"
+      "nativeFile": "iphone/06-natal.png",
+      "version": "1.8.0",
+      "build": "23",
+      "sourceBatch": "initial-build-23"
     },
     {
       "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
@@ -110,7 +128,10 @@
       "sha256": "698dcb84ab2b5e38ef919f22641a5a50b927be27c602fcb6dad1f8e19aa5d1ff",
       "bytes": 1734096,
       "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
-      "nativeFile": "iphone/07-transits.png"
+      "nativeFile": "iphone/07-transits.png",
+      "version": "1.8.0",
+      "build": "23",
+      "sourceBatch": "initial-build-23"
     },
     {
       "device": "856D8C26-9E97-4154-91C9-3973B1859496",
@@ -125,17 +146,14 @@
       "sha256": "2abbf4380e3988115e4f48978e7e523b237f2960c6ece9fe07363847b6ca0e4e",
       "bytes": 2495809,
       "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
-      "nativeFile": "ipad/01-paths.png"
+      "nativeFile": "ipad/01-paths.png",
+      "version": "1.8.0",
+      "build": "23",
+      "sourceBatch": "initial-build-23"
     }
   ],
   "supabaseClientConstructionDisabled": true,
-  "appSourceBaseRevision": "4a513bb",
   "systemLanguage": "English; QA iPad system locale en_US",
-  "buildLog": "/private/tmp/astra-site-180-debug-isolated.log",
-  "sourceSHA256": {
-    "App/FieldnoteApp.swift": "16df1e7237afafd9da5676e1041ed346fa1e244ffa01e6702cd417c19dcc3e4b",
-    "App/Testing/WebsiteCaptureView.swift": "4bc4051cdad5bdbc44856121ff0610ba178694bdbb74928afd7fe51fbce451c0"
-  },
   "finalized": true,
   "assets": [
     {
@@ -146,7 +164,8 @@
         1206,
         2622
       ],
-      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+      "pixelPreservation": "lossless, decoded pixels equal native PNG",
+      "captureBuild": "23"
     },
     {
       "file": "dist/assets/astra-180-ipad-paths.webp",
@@ -156,7 +175,8 @@
         1668,
         2420
       ],
-      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+      "pixelPreservation": "lossless, decoded pixels equal native PNG",
+      "captureBuild": "23"
     },
     {
       "file": "dist/assets/astra-180-journal.webp",
@@ -166,7 +186,8 @@
         1206,
         2622
       ],
-      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+      "pixelPreservation": "lossless, decoded pixels equal native PNG",
+      "captureBuild": "23"
     },
     {
       "file": "dist/assets/astra-180-natal.webp",
@@ -176,7 +197,8 @@
         1206,
         2622
       ],
-      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+      "pixelPreservation": "lossless, decoded pixels equal native PNG",
+      "captureBuild": "23"
     },
     {
       "file": "dist/assets/astra-180-paths.webp",
@@ -186,7 +208,8 @@
         1206,
         2622
       ],
-      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+      "pixelPreservation": "lossless, decoded pixels equal native PNG",
+      "captureBuild": "23"
     },
     {
       "file": "dist/assets/astra-180-practice.webp",
@@ -196,17 +219,20 @@
         1206,
         2622
       ],
-      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+      "pixelPreservation": "lossless, decoded pixels equal native PNG",
+      "captureBuild": "23"
     },
     {
       "file": "dist/assets/astra-180-today.webp",
-      "sha256": "ac64b4600564c5d566124733169ea772451ced6ece81a52704666e6cc893ae75",
-      "bytes": 779534,
+      "sha256": "5c58180181c645729ce8e70bb4805e68bb5816108c5c184bb1323438f00e8670",
+      "bytes": 795398,
       "pixels": [
         1206,
         2622
       ],
-      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+      "pixelPreservation": "lossless, decoded RGB pixels equal native PNG; no resize or UI alteration",
+      "captureBuild": "24",
+      "nativeSHA256": "a386a40aad2d0663b7758257ba4f6eb0a05b90660044acef5de765e59f1b7eb3"
     },
     {
       "file": "dist/assets/astra-180-transits.webp",
@@ -216,7 +242,8 @@
         1206,
         2622
       ],
-      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+      "pixelPreservation": "lossless, decoded pixels equal native PNG",
+      "captureBuild": "23"
     }
   ],
   "checks": {
@@ -226,7 +253,8 @@
     "mobileBrowser": "inspected at 400 CSS px, standard text",
     "pathSelector": "Negotiation updates aria-pressed and explanatory copy",
     "releaseBuild": "1.8.0 (23) passed; website capture markers absent",
-    "production": "passed, all fourteen public resources match source"
+    "production": "pending publication of integrated copy/legal changes and refreshed Today asset",
+    "todayBuild24": "EN and RU native captures inspected; WebP pixels identical; other seven assets unchanged"
   },
   "appStoreMetadata": {
     "id": 6831565760,
@@ -235,7 +263,50 @@
     "checkedDate": "2026-11-22",
     "source": "https://itunes.apple.com/lookup?id=6831565760&country=us"
   },
-  "productionVerification": {
+  "captureBatches": {
+    "initial-build-23": {
+      "version": "1.8.0",
+      "build": "23",
+      "appSourceBaseRevision": "4a513bb",
+      "buildLog": "/private/tmp/astra-site-180-debug-isolated.log",
+      "sourceSHA256": {
+        "App/FieldnoteApp.swift": "16df1e7237afafd9da5676e1041ed346fa1e244ffa01e6702cd417c19dcc3e4b",
+        "App/Testing/WebsiteCaptureView.swift": "4bc4051cdad5bdbc44856121ff0610ba178694bdbb74928afd7fe51fbce451c0"
+      }
+    },
+    "today-fix-build-24": {
+      "version": "1.8.0",
+      "build": "24",
+      "appSourceBaseRevision": "f39c1212c6a18ae2b6d471ec9efef3d49035f745",
+      "sourceSHA256": {
+        "App/FieldnoteApp.swift": "04400d79436d7ce6625d586e24aca50a2f2b3969a95f15438c05e94716d3ba97",
+        "App/Testing/WebsiteCaptureView.swift": "1718feef4b9f393a29b36fb7f182564c6eca8cf2ec640345b067513fa3a33765",
+        "App/Features/Interpretation/PersonalizedTodayView.swift": "81eec21a57b6b99be16579b8b848820a52302c6fd2781c6246ed60a06ca1abd6",
+        "App/Features/Today/TodayScreen.swift": "89e417e318cd2757ff32fe9c6a8c247d596a586535f2061851d62795037b084c",
+        "App/Features/Interpretation/InterpretationSharedView.swift": "f1d7fc7c639d005223136f3e7a33305a2d79e90bcda780c8b13c19145af45d7b"
+      },
+      "builtApp": "/private/tmp/astra-180-implementation/Build/Products/Debug-iphonesimulator/FieldnotePaths.app",
+      "buildPerformedBy": "parent; existing normal signed Debug app, no build or signing change during capture",
+      "language": "en-US",
+      "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
+      "nativeFile": "/private/tmp/astra180-fix24-visual/today-en.png",
+      "supabaseClientConstructionDisabled": true,
+      "aiCalls": 0,
+      "productionAccountCreated": false,
+      "visualInspection": "passed: real guest UI; collapsed Today selector; no date description, permanent week row, loading indicator, QA banner or system overlay",
+      "russianQA": {
+        "file": "/private/tmp/astra180-fix24-visual/today-ru.png",
+        "sha256": "ca9da3e89c24f3deab6ed8195f85457bad377d42c4adc9ee11bc3eaaa41fe42f",
+        "visualInspection": "passed: Сегодня control; natural Russian copy, no permanent week row or date description"
+      },
+      "qaHandoff": "device left booted with EN Today for parent interactive picker check"
+    }
+  },
+  "captureBuilds": {
+    "23": 7,
+    "24": 1
+  },
+  "historicalProductionVerification": {
     "site": "https://astra-site-ddi.pages.dev",
     "sourceRevision": "0968c37",
     "checkedAt": "2026-11-22T10:49:41.829451+00:00",

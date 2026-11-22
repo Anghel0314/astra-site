@@ -52,3 +52,11 @@ Updated the actual eight local Paths, decisions, journal, free birth chart/trans
 Fresh images are native app screenshots from isolated QA devices, with an example local profile and illustrative local notes. The capture source, app commit/build and file hashes are recorded in docs/website-180-verification.json. Support, Terms and Privacy now describe actual current/1.8 routing, consent, local storage, shared-account deletion, Apple/Stripe access and optional AI processing.
 
 The existing public Cloudflare Pages project and /privacy/, /terms/, /support/ paths are retained. Deployment is complete only when those public pages and replacement images are verified; a Git push alone is not proof of publication.
+
+## Website copy and capture review
+
+Public marketing and support copy no longer display app release numbers or a version badge. Upcoming functionality is described as part of the next App Store update until it is distributed. Visible numeric versions in policy/terms must be reconciled by the legal-content owner separately; cache query parameters and asset filenames are implementation details.
+
+The Today capture must be refreshed after the collapsed day selector and reading presentation fixes. Existing Paths, practice, decision, journal, natal chart, transit chart and iPad Paths images stay applicable unless those screens change during integration. Review Settings and the Plus purchase/access state as QA surfaces, even though those screens are not among the current eight website images. Preserve native sample-data disclosure and do not fabricate paid AI readings for marketing.
+
+The owner requests automatic personal-reading preparation when a signed-in user with a birth profile opens the feature. Marketing and Support describe that entry flow without an enable-personalization or data-processing permission step. Detailed processing disclosures remain in Terms and Privacy. Plus is still required for paid readings, Outlook and Compass. Notification OS permission remains a separate existing platform setting.
