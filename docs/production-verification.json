@@ -1,35 +1,35 @@
 {
   "site": "https://astra-site-ddi.pages.dev",
-  "sourceRevision": "0968c37",
-  "checkedAt": "2026-11-22T10:49:41.829451+00:00",
+  "sourceRevision": "988fed5",
+  "checkedAt": "2026-11-22T20:05:45.280691+00:00",
   "checks": [
     {
       "path": "/",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
       "matchesSource": true,
-      "sha256": "848e0badaa984f78e77ffe6d8be2fbb42457283180c9e07acd22c49441dff076"
+      "sha256": "824179d18479f80677dc91474315696dc8a6b836ea9145e05e3eef846b34fcc4"
     },
     {
       "path": "/privacy/",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
       "matchesSource": true,
-      "sha256": "26a4691b48bbe9aece73029221940c856f54123a32069135503a89c6163f1cd5"
+      "sha256": "421d4f1aa299c7fb1ad66af8137ae8b37e9985476c5519f94b9b53795ce44a3f"
     },
     {
       "path": "/terms/",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
       "matchesSource": true,
-      "sha256": "8fcd56538aaaa1af164168000b5a792369adea7c28d32c2883cab219ff9f1b58"
+      "sha256": "63ee1ef22e0eaccb3289245d648a7936e5702abab815bb72e90e7c0d82593c92"
     },
     {
       "path": "/support/",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
       "matchesSource": true,
-      "sha256": "b7a3e2f0780ffb1713ae67fc0d5a7b4addd69e429eaa4043927a81affac19115"
+      "sha256": "31cc18423f52c674758c604b38732f1523556fd4ae489e0a822370f2dc419ca6"
     },
     {
       "path": "/assets/astra-180-paths.webp",
@@ -78,7 +78,7 @@
       "status": 200,
       "contentType": "image/webp",
       "matchesSource": true,
-      "sha256": "ac64b4600564c5d566124733169ea772451ced6ece81a52704666e6cc893ae75"
+      "sha256": "5c58180181c645729ce8e70bb4805e68bb5816108c5c184bb1323438f00e8670"
     },
     {
       "path": "/assets/astra-180-natal.webp",
@@ -99,7 +99,7 @@
       "status": 200,
       "contentType": "text/css; charset=utf-8",
       "matchesSource": true,
-      "sha256": "90ce271f41b3fcab1ce209cac7f0e1760027a6fe26bbd6c5031110755494483c"
+      "sha256": "ed19f1291b09b597a18528967856bffdbb5cdcf6d05d895dda2f351f2e4a7e9f"
     }
   ],
   "passed": true

@@ -253,7 +253,7 @@
     "mobileBrowser": "inspected at 400 CSS px, standard text",
     "pathSelector": "Negotiation updates aria-pressed and explanatory copy",
     "releaseBuild": "1.8.0 (23) passed; website capture markers absent",
-    "production": "pending publication of integrated copy/legal changes and refreshed Today asset",
+    "production": "passed: all 14 public resources match source 988fed5",
     "todayBuild24": "EN and RU native captures inspected; WebP pixels identical; other seven assets unchanged"
   },
   "appStoreMetadata": {
@@ -408,6 +408,112 @@
         "contentType": "text/css; charset=utf-8",
         "matchesSource": true,
         "sha256": "90ce271f41b3fcab1ce209cac7f0e1760027a6fe26bbd6c5031110755494483c"
+      }
+    ],
+    "passed": true
+  },
+  "productionVerification": {
+    "site": "https://astra-site-ddi.pages.dev",
+    "sourceRevision": "988fed5",
+    "checkedAt": "2026-11-22T20:05:45.280691+00:00",
+    "checks": [
+      {
+        "path": "/",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "matchesSource": true,
+        "sha256": "824179d18479f80677dc91474315696dc8a6b836ea9145e05e3eef846b34fcc4"
+      },
+      {
+        "path": "/privacy/",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "matchesSource": true,
+        "sha256": "421d4f1aa299c7fb1ad66af8137ae8b37e9985476c5519f94b9b53795ce44a3f"
+      },
+      {
+        "path": "/terms/",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "matchesSource": true,
+        "sha256": "63ee1ef22e0eaccb3289245d648a7936e5702abab815bb72e90e7c0d82593c92"
+      },
+      {
+        "path": "/support/",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "matchesSource": true,
+        "sha256": "31cc18423f52c674758c604b38732f1523556fd4ae489e0a822370f2dc419ca6"
+      },
+      {
+        "path": "/assets/astra-180-paths.webp",
+        "status": 200,
+        "contentType": "image/webp",
+        "matchesSource": true,
+        "sha256": "a325b625cf82bdbfcdc96bb060f62263423b58c47131cd9c5d41a6717d5c0747"
+      },
+      {
+        "path": "/assets/astra-180-decision.webp",
+        "status": 200,
+        "contentType": "image/webp",
+        "matchesSource": true,
+        "sha256": "7e005c6db4521694f0fbf1ca12cde97822bd80baca3f0d1f94e2e13d37a2e972"
+      },
+      {
+        "path": "/assets/astra-180-journal.webp",
+        "status": 200,
+        "contentType": "image/webp",
+        "matchesSource": true,
+        "sha256": "f98ffcd0242152c40185ba8e767970b4d9e4e4cbbe2a0ae3e6680fcfa0eb12f8"
+      },
+      {
+        "path": "/assets/astra-180-transits.webp",
+        "status": 200,
+        "contentType": "image/webp",
+        "matchesSource": true,
+        "sha256": "421dcafd07b3b5797bdb5f087cf7725619d81d2d95fba062e28c1232343171b1"
+      },
+      {
+        "path": "/assets/astra-180-practice.webp",
+        "status": 200,
+        "contentType": "image/webp",
+        "matchesSource": true,
+        "sha256": "b95056e8cb14f3bb0d9b1342c06c76e12adf8bd2fd74ed26d891fa5d7c91448e"
+      },
+      {
+        "path": "/assets/astra-180-ipad-paths.webp",
+        "status": 200,
+        "contentType": "image/webp",
+        "matchesSource": true,
+        "sha256": "cbdeda3c58b5a67594ba31eafa1a4a97adc20f8fd7fda3ad624bd25705c7a4ab"
+      },
+      {
+        "path": "/assets/astra-180-today.webp",
+        "status": 200,
+        "contentType": "image/webp",
+        "matchesSource": true,
+        "sha256": "5c58180181c645729ce8e70bb4805e68bb5816108c5c184bb1323438f00e8670"
+      },
+      {
+        "path": "/assets/astra-180-natal.webp",
+        "status": 200,
+        "contentType": "image/webp",
+        "matchesSource": true,
+        "sha256": "16f500e7caa4febfd4de0a274c1252529c5cfa29e413d21abdbc7bd58307ca41"
+      },
+      {
+        "path": "/assets/site.js",
+        "status": 200,
+        "contentType": "application/javascript",
+        "matchesSource": true,
+        "sha256": "e250120cd2a3b954eec04979de2dc37f1add3bdd8c86ad44abe0bba69171cffa"
+      },
+      {
+        "path": "/assets/styles.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8",
+        "matchesSource": true,
+        "sha256": "ed19f1291b09b597a18528967856bffdbb5cdcf6d05d895dda2f351f2e4a7e9f"
       }
     ],
     "passed": true
