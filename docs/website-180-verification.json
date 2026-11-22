@@ -1,0 +1,238 @@
+{
+  "version": "1.8.0",
+  "build": "23",
+  "language": "en-US",
+  "kind": "native simulator screenshot",
+  "sampleDisclosure": "Example local profile and journal. Real feature UI and deterministic calculations. Guest state; no simulated AI output, paid access or production service response.",
+  "networkServices": "Supabase client construction disabled in capture mode before makeClient (FieldnoteApp DEBUG --capture-site configuration=nil). Capture shell uses unconfigured Auth/Profile/AI/push and no-entitlement Apple loader. No production account, AI generation or purchase invoked.",
+  "source": "App/Testing/WebsiteCaptureView.swift and App/Navigation/Root.swift Demo.fixture",
+  "captures": [
+    {
+      "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
+      "surface": "01-paths",
+      "launchFlags": [
+        "--capture-site",
+        "--capture-sample",
+        "--capture-paths"
+      ],
+      "pixelWidth": 1206,
+      "pixelHeight": 2622,
+      "sha256": "d701c8280fecabad3e169e2adc56466aaf42802ba8065f3f52af43ffc041d968",
+      "bytes": 2259297,
+      "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
+      "nativeFile": "iphone/01-paths.png"
+    },
+    {
+      "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
+      "surface": "02-practice",
+      "launchFlags": [
+        "--capture-site",
+        "--capture-sample",
+        "--capture-practice"
+      ],
+      "pixelWidth": 1206,
+      "pixelHeight": 2622,
+      "sha256": "0dcaf0c08b8cd8f45a47fcd3c46027c88e08e2985414efb5c2ed982d6c359d34",
+      "bytes": 1751289,
+      "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
+      "nativeFile": "iphone/02-practice.png"
+    },
+    {
+      "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
+      "surface": "03-decision",
+      "launchFlags": [
+        "--capture-site",
+        "--capture-sample",
+        "--capture-decision"
+      ],
+      "pixelWidth": 1206,
+      "pixelHeight": 2622,
+      "sha256": "0e75049f68b8f56e74cd7455d20c3e1d9eade0c3bbe80d7914d6c57ea73c2c8a",
+      "bytes": 1472246,
+      "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
+      "nativeFile": "iphone/03-decision.png"
+    },
+    {
+      "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
+      "surface": "04-journal",
+      "launchFlags": [
+        "--capture-site",
+        "--capture-sample",
+        "--capture-journal"
+      ],
+      "pixelWidth": 1206,
+      "pixelHeight": 2622,
+      "sha256": "2991f4ac7dab2c5be8aaa9c3e098ef318d95219e1618e8ec6ebdf58c3039de1f",
+      "bytes": 2075266,
+      "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
+      "nativeFile": "iphone/04-journal.png"
+    },
+    {
+      "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
+      "surface": "05-today",
+      "launchFlags": [
+        "--capture-site",
+        "--capture-sample",
+        "--capture-today"
+      ],
+      "pixelWidth": 1206,
+      "pixelHeight": 2622,
+      "sha256": "544cf5703d197c8436cf448b5834d3e17d7c5946bb9aa57f6eb763cfe8a3ddd6",
+      "bytes": 1815098,
+      "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
+      "nativeFile": "iphone/05-today.png"
+    },
+    {
+      "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
+      "surface": "06-natal",
+      "launchFlags": [
+        "--capture-site",
+        "--capture-sample",
+        "--capture-site-natal"
+      ],
+      "pixelWidth": 1206,
+      "pixelHeight": 2622,
+      "sha256": "41714c16618fd204e7a02debe744178111d6d548034e64563d133d2eaa3473ac",
+      "bytes": 1073080,
+      "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
+      "nativeFile": "iphone/06-natal.png"
+    },
+    {
+      "device": "4E34F43F-D03A-4FB9-8C9E-9F4EC24927AF",
+      "surface": "07-transits",
+      "launchFlags": [
+        "--capture-site",
+        "--capture-sample",
+        "--capture-site-transits"
+      ],
+      "pixelWidth": 1206,
+      "pixelHeight": 2622,
+      "sha256": "698dcb84ab2b5e38ef919f22641a5a50b927be27c602fcb6dad1f8e19aa5d1ff",
+      "bytes": 1734096,
+      "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
+      "nativeFile": "iphone/07-transits.png"
+    },
+    {
+      "device": "856D8C26-9E97-4154-91C9-3973B1859496",
+      "surface": "01-paths",
+      "launchFlags": [
+        "--capture-site",
+        "--capture-sample",
+        "--capture-paths"
+      ],
+      "pixelWidth": 1668,
+      "pixelHeight": 2420,
+      "sha256": "2abbf4380e3988115e4f48978e7e523b237f2960c6ece9fe07363847b6ca0e4e",
+      "bytes": 2495809,
+      "visualInspection": "passed; English real feature UI; no loading, error, QA banner or system notification overlay",
+      "nativeFile": "ipad/01-paths.png"
+    }
+  ],
+  "supabaseClientConstructionDisabled": true,
+  "appSourceBaseRevision": "4a513bb",
+  "systemLanguage": "English; QA iPad system locale en_US",
+  "buildLog": "/private/tmp/astra-site-180-debug-isolated.log",
+  "sourceSHA256": {
+    "App/FieldnoteApp.swift": "16df1e7237afafd9da5676e1041ed346fa1e244ffa01e6702cd417c19dcc3e4b",
+    "App/Testing/WebsiteCaptureView.swift": "4bc4051cdad5bdbc44856121ff0610ba178694bdbb74928afd7fe51fbce451c0"
+  },
+  "finalized": true,
+  "assets": [
+    {
+      "file": "dist/assets/astra-180-decision.webp",
+      "sha256": "7e005c6db4521694f0fbf1ca12cde97822bd80baca3f0d1f94e2e13d37a2e972",
+      "bytes": 540454,
+      "pixels": [
+        1206,
+        2622
+      ],
+      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+    },
+    {
+      "file": "dist/assets/astra-180-ipad-paths.webp",
+      "sha256": "cbdeda3c58b5a67594ba31eafa1a4a97adc20f8fd7fda3ad624bd25705c7a4ab",
+      "bytes": 860718,
+      "pixels": [
+        1668,
+        2420
+      ],
+      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+    },
+    {
+      "file": "dist/assets/astra-180-journal.webp",
+      "sha256": "f98ffcd0242152c40185ba8e767970b4d9e4e4cbbe2a0ae3e6680fcfa0eb12f8",
+      "bytes": 878836,
+      "pixels": [
+        1206,
+        2622
+      ],
+      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+    },
+    {
+      "file": "dist/assets/astra-180-natal.webp",
+      "sha256": "16f500e7caa4febfd4de0a274c1252529c5cfa29e413d21abdbc7bd58307ca41",
+      "bytes": 466788,
+      "pixels": [
+        1206,
+        2622
+      ],
+      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+    },
+    {
+      "file": "dist/assets/astra-180-paths.webp",
+      "sha256": "a325b625cf82bdbfcdc96bb060f62263423b58c47131cd9c5d41a6717d5c0747",
+      "bytes": 879066,
+      "pixels": [
+        1206,
+        2622
+      ],
+      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+    },
+    {
+      "file": "dist/assets/astra-180-practice.webp",
+      "sha256": "b95056e8cb14f3bb0d9b1342c06c76e12adf8bd2fd74ed26d891fa5d7c91448e",
+      "bytes": 750362,
+      "pixels": [
+        1206,
+        2622
+      ],
+      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+    },
+    {
+      "file": "dist/assets/astra-180-today.webp",
+      "sha256": "ac64b4600564c5d566124733169ea772451ced6ece81a52704666e6cc893ae75",
+      "bytes": 779534,
+      "pixels": [
+        1206,
+        2622
+      ],
+      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+    },
+    {
+      "file": "dist/assets/astra-180-transits.webp",
+      "sha256": "421dcafd07b3b5797bdb5f087cf7725619d81d2d95fba062e28c1232343171b1",
+      "bytes": 643476,
+      "pixels": [
+        1206,
+        2622
+      ],
+      "pixelPreservation": "lossless, decoded pixels equal native PNG"
+    }
+  ],
+  "checks": {
+    "staticHtmlLinksAndAssets": "passed, four pages and eight images",
+    "javascriptSyntax": "passed",
+    "desktopBrowser": "inspected",
+    "mobileBrowser": "inspected at 400 CSS px, standard text",
+    "pathSelector": "Negotiation updates aria-pressed and explanatory copy",
+    "releaseBuild": "1.8.0 (23) passed; website capture markers absent",
+    "production": "not yet verified"
+  },
+  "appStoreMetadata": {
+    "id": 6831565760,
+    "bundleId": "com.elena.fieldnotepaths",
+    "version": "1.7.0",
+    "checkedDate": "2026-11-22",
+    "source": "https://itunes.apple.com/lookup?id=6831565760&country=us"
+  }
+}

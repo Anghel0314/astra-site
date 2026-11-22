@@ -44,3 +44,11 @@ If a push does not create a Pages deployment, check the project’s Deployments 
 
 Both shared components now render the SaaS compass SVG used by the favicon. Previous
 favicon-only update did not replace the visible letter A in the header/footer.
+
+## Astra 1.8 website refresh — 2026-11-22
+
+Updated the actual eight local Paths, decisions, journal, free birth chart/transits and the upcoming personal Today/Outlook/Compass. The page explicitly marks 1.8 as a preview while the official App Store metadata reports 1.7.0. The App Store action now links to the verified current app (ID 6831565760, bundle com.elena.fieldnotepaths). No invented AI output or InterpretationPreviewView fixture is used in marketing captures.
+
+Fresh images are native app screenshots from isolated QA devices, with an example local profile and illustrative local notes. The capture source, app commit/build and file hashes are recorded in docs/website-180-verification.json. Support, Terms and Privacy now describe actual current/1.8 routing, consent, local storage, shared-account deletion, Apple/Stripe access and optional AI processing.
+
+The existing public Cloudflare Pages project and /privacy/, /terms/, /support/ paths are retained. Deployment is complete only when those public pages and replacement images are verified; a Git push alone is not proof of publication.

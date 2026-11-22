@@ -7,8 +7,8 @@ class SiteHeader extends HTMLElement {
         <a class="brand" href="/" aria-label="Astra home"><img class="brand-mark" src="/assets/favicon.svg" alt="" aria-hidden="true" width="32" height="32"><span>Astra</span></a>
         <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
         <nav class="site-nav" aria-label="Main navigation">
-          <a href="/#paths">Paths</a><a href="/#experience">Experience</a>
-          <a href="/#advisor">Advisor</a>
+          <a href="/#paths">Paths</a><a href="/#personal">Today</a>
+          <a href="/#compass">Compass</a>
           <a href="/support/"${active("support")}>Support</a>
           <a class="button button-small" href="/#download">Get Astra</a>
         </nav>
@@ -34,7 +34,7 @@ class SiteFooter extends HTMLElement {
       <footer class="footer shell">
         <div class="footer-brand"><a class="brand" href="/"><img class="brand-mark" src="/assets/favicon.svg" alt="" aria-hidden="true" width="32" height="32"><span>Astra</span></a><p>Your pattern. Your path. Your next move.</p></div>
         <div class="footer-links">
-          <div><h3>Product</h3><a href="/#paths">Paths</a><a href="/#experience">Experience</a><a href="/#advisor">Advisor</a><a href="/#download">Get Astra</a></div>
+          <div><h3>Product</h3><a href="/#paths">Paths</a><a href="/#personal">Today</a><a href="/#outlook">Outlook &amp; Compass</a><a href="/#plus">Astra Plus</a><a href="/#download">Get Astra</a></div>
           <div><h3>Resources</h3><a href="/support/">Support</a></div>
           <div><h3>Legal</h3><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Use</a></div>
         </div>
@@ -58,14 +58,14 @@ const revealObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll("[data-reveal]").forEach((element) => revealObserver.observe(element));
 
 const pathDescriptions = {
-  Strategy: "Reflect on priorities, constraints, and the decision behind your next plan.",
-  Execution: "Explore how you move from an intention to a concrete action.",
-  Creativity: "Make room for different ideas before choosing an approach.",
-  Leadership: "Reflect on how you give direction and take responsibility.",
-  Independence: "Explore where autonomy helps you work with greater intention.",
-  Communication: "Consider how you express an idea and understand another perspective.",
-  Adaptability: "Reflect on how you respond when plans or circumstances change.",
-  "Risk Orientation": "Explore uncertainty, tradeoffs, and the boundaries around a decision."
+  "Clarity": "Name the real decision, separate facts from guesses and define a useful result.",
+  "Communication": "Prepare a conversation, listen for the need and make one clear request.",
+  "Priorities": "Choose one priority, use a spare hour and make a stop list.",
+  "Boundaries": "Draw a workable line, say no with care and notice the cost of saying yes.",
+  "Leadership": "Delegate with context, give specific feedback and make a decision visible.",
+  "Learning": "Run a small experiment, extract a lesson and ask for a concrete example.",
+  "Negotiation": "Prepare your ideal and minimum outcomes, find a trade and check the agreement.",
+  "Follow-through": "Make the next step smaller, plan around friction and close a loose end."
 };
 document.querySelectorAll("[data-path]").forEach((button) => {
   button.addEventListener("click", () => {
